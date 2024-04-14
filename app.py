@@ -58,7 +58,7 @@ if not USE_MEMGPT:
     coder = autogen.AssistantAgent(
         name="Coder",
         llm_config=llm_config,
-        system_message=f"I am a 10x engineer, trained in Python. I was the first engineer at Uber",
+        system_message="I am a 10x engineer, trained in Python. I was the first engineer at Uber",
         human_input_mode="TERMINATE",
     )
 
